@@ -20,7 +20,7 @@ const BlogList = () => {
             try {
                 const response = await loader();
                 // Filtering posts where banner is null
-                const filteredPosts = response?.posts.filter((post) => post.banner === null);
+                const filteredPosts = response?.posts.filter((post) => post.banner !==true);
                 setPosts(filteredPosts);
             } catch (error) {
                 console.error("Error fetching posts:", error);
