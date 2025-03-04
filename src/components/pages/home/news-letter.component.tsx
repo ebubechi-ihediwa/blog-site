@@ -6,7 +6,7 @@ const NewsLetter = () => {
             <div className="w-full mt-[64px]" >
                 <div className="w-full bg-[#FAFAFA] rounded-2xl  py-5 px-5  lg:px-[224px] lg:py-[64px]" >
                     <h1 className=" text-2xl font-semibold text-center text-[#181D27] lg:text-4xl" >Still thinking<br className="block lg:hidden" /> about it?</h1>
-                    <p className="text-center text-lg font-normal text-[#535862] mt-[16px]" >Sign up for our newsletter and get 10% off your next purchase.</p>
+                    <p className="text-center text-lg font-normal text-[#535862] mt-[16px]" >Sign up for our newsletter and get the latest blog posts.</p>
 
 
                     <div className="w-full mt-[16px] mx-auto  md:flex md:items-stretch md:justify-between gap-[16px]  lg:mt-[48px]" >
