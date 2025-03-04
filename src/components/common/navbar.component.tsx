@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Globe, Megaphone, MenuIcon, Mic, XIcon } from "lucide-react";
+import { Globe, MenuIcon, XIcon } from "lucide-react";
 import { Link, useNavigate } from "react-router";
 
 const Navbar = () => {
