@@ -1,13 +1,10 @@
-import { useState, useEffect } from "react";
+
 import Footer from "@/components/common/footer.component";
 import Navbar from "@/components/common/navbar.component";
 import BlogList from "@/components/pages/home/blog-list.component";
 import HomeBlogBanner from "@/components/pages/home/home-blog-banner.component";
 import NewsLetter from "@/components/pages/home/news-letter.component";
 import { Button } from "@/components/ui/button";
-import { client } from "@/sanity/client";
-import { SanityDocument } from "@sanity/client";
-
 // const POSTS_QUERY = `*[ _type == "post" && defined(slug.current) ]
 //   | order(publishedAt desc)[0...12]{_id, title, slug, publishedAt,category,authorName,image,body}`;
 
